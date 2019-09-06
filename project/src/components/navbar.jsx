@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import SearchBar from './searchBar';
+=======
+
+>>>>>>> 35c48185c475832410dc5e7ab595df95a682cb23
 const Navbar = () => {
     return (
         <nav className=" rtl navbar navbar-dark bg-dark fixed-top flex-md-nowrap p-0 shadow ">
