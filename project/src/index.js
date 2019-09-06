@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
+import '/src/css/navbar.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap-v4-rtl/dist/css/bootstrap.min.css';
