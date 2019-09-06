@@ -7,7 +7,11 @@ const Navbar = () => {
                 وب سایت شخصی
             </a>
             <input className='form-contorl form-contorl-dark w-100' type='text' placeholder='جستجو'/>
-            
+            <ul className='navbar-nav px-3'> 
+                <li className='nav-item text-nowrap'>
+                    <a>خروج</a>
+                </li>
+            </ul>
         </nav>
      );
 }
