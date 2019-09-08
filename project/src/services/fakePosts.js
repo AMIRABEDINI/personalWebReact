@@ -2,7 +2,7 @@ const posts = [
     {
         id: 1,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
@@ -12,7 +12,7 @@ const posts = [
     {
         id: 2,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
@@ -22,7 +22,7 @@ const posts = [
     {
         id: 3,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
@@ -32,7 +32,7 @@ const posts = [
     {
         id: 4,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
@@ -42,7 +42,7 @@ const posts = [
     {
         id: 5,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
@@ -52,7 +52,7 @@ const posts = [
     {
         id: 6,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
@@ -122,7 +122,7 @@ const posts = [
     {
         id: 13,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
@@ -132,7 +132,7 @@ const posts = [
     {
         id: 14,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
@@ -142,7 +142,7 @@ const posts = [
     {
         id: 15,
         postTitle: 'جدیدترین خبر',
-        postDate: '۴ آبان ۱۳۹۷',
+        postDate: 'شهریور ۱۳۹۸',
         postImageUrl: 'https://via.placeholder.com/800x300',
         postContent:
             'Labore ad nisi esse ipsum. Ipsum pariatur velit ex aliqua nostrud cupidatat deserunt pariatur velit sit consequat quis duis elit. Laboris cillum nostrud incididunt elit sunt fugiat nulla non consequat. Sint esse deserunt ullamco est nulla dolor aliquip id ad et. Qui minim culpa esse ex minim sint sunt cillum reprehenderit qui laboris est. Voluptate ipsum amet do tempor ea enim in ea et.',
