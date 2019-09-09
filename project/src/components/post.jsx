@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import getPosts from '../services/fakePosts';
+import Like from './like';
 
 class Posts extends Component {
     state = {
@@ -53,6 +54,7 @@ class Posts extends Component {
                                             <a href="#">{post.postTags}</a>
                                         </li>
                                     </ul>
+                                    <Like post={post}/>
                                 </div>
                             </article>
                         </div>
