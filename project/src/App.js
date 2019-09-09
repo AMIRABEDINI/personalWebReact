@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import Navbar from './components/navbar';
 import SideBar from './components/sidebar';
 import Posts from './components/post';
+import Footer from './components/footer';
+
 class App extends Component {
   render() {
     return (
@@ -17,6 +19,7 @@ class App extends Component {
           </main>
           </div>
         </div>
+        <Footer/>
       </React.Fragment>
     )
   }
