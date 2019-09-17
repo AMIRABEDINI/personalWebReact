@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import App from './App';
+import Login from './components/login';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css';
 import 'font-awesome/css/font-awesome.min.css'
 import './css/index.css';
 import './css/navbar.css';
 import './css/sidebar.css';
+import './css/login.css'
 ReactDOM.render(
     <BrowserRouter>
-        <Router>
-            <App />
-        </Router>
+        <Switch>
+           <Route path="/login" component={Login}/>
+           <Route path="/" component={App}/>
+        </Switch>  
 
     </BrowserRouter>
     , document.getElementById('root'));

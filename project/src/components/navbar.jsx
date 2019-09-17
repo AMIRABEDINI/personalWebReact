@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchBar from './searchBar';
+import {Link} from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav className=" rtl navbar navbar-dark bg-dark fixed-top flex-md-nowrap p-0 shadow ">
@@ -8,12 +9,12 @@ const Navbar = () => {
             </a>
             <SearchBar />
             <ul className='navbar-nav px-3'>
-                <li className='nav-item text-nowrap text-light'>
-                    <a>خروج</a>
+                <li className='nav-item text-nowrap '>
+                    <Link to='/login'>ورود</Link>
                 </li>
             </ul>
         </nav>
     );
 }
 
-export default Navbar;
+export default Navbar; 
