@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom';
 import getNavLinks from '../services/navLinks';
 import UserInfo from './common/userinfo';
 export default class SideBar extends Component {
@@ -17,7 +18,7 @@ export default class SideBar extends Component {
                     <ul className='nav flex-column'>
                         {navlinks.map(nav => (
                             <li className='nav-item' key={nav.id}>
-                                <a className='nav-link' href={nav.link}>
+                                <Link className='nav-link' to={nav.link}>
                                     <span className={nav.icon}></span>
                                     <span className='m-2'>{nav.text}</span>
                                     {nav.count ? ( 
@@ -25,7 +26,7 @@ export default class SideBar extends Component {
                                             {nav.count}
                                         </span>
                                     ) : null}
-                                </a>
+                                </Link>
 
                             </li>
                         ))}
