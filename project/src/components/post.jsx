@@ -4,10 +4,6 @@ import Like from "./like";
 import Pagination from "./pagination";
 import _ from "lodash";
 import { paginate } from "./utils/paginate";
-<<<<<<< HEAD
-=======
-
->>>>>>> 36f07fa86c7f9192bc971f4d2c296b7f1df988ee
 class Posts extends Component {
     state = {
         posts: [],
@@ -19,11 +15,7 @@ class Posts extends Component {
         this.setState({ posts: posts });
     }
     handelPageChange = page => {
-<<<<<<< HEAD
         this.setState({ currentPage: page })
-=======
-        this.setState({currentPage:page})
->>>>>>> 36f07fa86c7f9192bc971f4d2c296b7f1df988ee
     }
     getPageDate = () => {
         const { posts: allPosts, currentPage, pagesize } = this.state;
@@ -36,11 +28,9 @@ class Posts extends Component {
     render() {
         const { pagesize, currentPage } = this.state;
         const { totalCount, data } = this.getPageDate();
-<<<<<<< HEAD
+
         const count = this.state.posts.length;
-        if(count===0)return <p className="text-center">پستی برای نمایش وجود ندارد</p>
-=======
->>>>>>> 36f07fa86c7f9192bc971f4d2c296b7f1df988ee
+        if (count === 0) return <p className="text-center">پستی برای نمایش وجود ندارد</p>
         return (
             <React.Fragment>
                 {data.map(post => (
@@ -98,9 +88,5 @@ class Posts extends Component {
             </React.Fragment>
         );
     }
-<<<<<<< HEAD
-};
-=======
 }
->>>>>>> 36f07fa86c7f9192bc971f4d2c296b7f1df988ee
 export default Posts;

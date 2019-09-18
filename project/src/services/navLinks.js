@@ -1,10 +1,10 @@
 const navLinks = [
-    { id: 1, text: 'صفحه اصلی', link: '#', icon: 'fa fa-home feather' },
+    { id: 1, text: 'صفحه اصلی', link: '/', icon: 'fa fa-home feather' },
     {
         id: 2,
         text: 'دوره ها',
         link: '/‌courses',
-        count: 5,
+        count: 3,
         icon: 'fa fa-graduation-cap feather'
     },
     { id: 3, text: 'تحصیلات', link: '/education', icon: 'fa fa-university feather' },

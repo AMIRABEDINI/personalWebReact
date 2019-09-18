@@ -5,9 +5,9 @@ const Footer = () => {
 
         <footer className="rtl float-left navbar navbar-dark bg-dark col-md-9 ml-sm-auto col-lg-10 px-4 shadow ">
             <div className="copyright">
-                <span className="fa fa-copyright m-1">
+                <p className="fa fa-copyright m-1">
                     تمامی حقوق این سایت محفوظ است 
-                </span>
+                </p>
             </div>
             <div className="socialmedia">
                 <a href="http://instagram.com" className="fa fa-instagram ml-1"></a>

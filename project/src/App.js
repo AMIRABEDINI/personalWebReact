@@ -21,7 +21,7 @@ class App extends Component {
             <SideBar />
             <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-4">
               <Switch>
-                <Route path="/courses" component={Courses}/>
+                <Route path="/courses" component={Courses} />
                 <Route path="/education" component={Education}/>
                 <Route path="/skill" component={Skill}/>
                 <Route path="/about" component={About}/>
