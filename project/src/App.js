@@ -1,6 +1,6 @@
 import './App.css';
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch , Redirect} from 'react-router-dom';
 import Navbar from './components/navbar';
 import SideBar from './components/sidebar';
 import Posts from './components/post';
@@ -14,9 +14,8 @@ import Skill from './components/skill';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <Navbar />
-        <div className='container-fluid rtl'>
+      <div className='container-fluid rtl'>
+      <Navbar />
           <div className='row'>
             <SideBar />
             <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-4">
@@ -26,14 +25,13 @@ class App extends Component {
                 <Route path="/skill" component={Skill}/>
                 <Route path="/about" component={About}/>
                 <Route path="/contact" component={Contact}/>
-                <Route path="/" component={Posts}/>
+                <Route path="/" exact component={Posts}/>
+                <Redirect to="/not-found"/>
               </Switch>
             </main>
           </div>
+          <Footer />
         </div>
-        <Footer />
-
-      </React.Fragment>
     )
   }
 }

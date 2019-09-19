@@ -5,7 +5,7 @@ const About = () => {
             <div className="row m-2 bg-light border rounded shadow">
                 <div className="col-9">
                     <div className="card bg-light shadow mx-auto mt-5">
-                        <p className="card-title m-2">یونس قربانی</p>
+                        <p className="card-title m-2">امیر عابدینی</p>
                         <p className="card-body">
                             علاقه مندی های من برنامه نویسی و تدریس هست.
                         </p>
