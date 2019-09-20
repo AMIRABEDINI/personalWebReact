@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route , Redirect } from 'react-router-dom'
 import App from './App';
 import Login from './components/login';
 import NotFound from './components/notFound';
+import Dashbord from './components/admin/dashbord';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css';
 import 'font-awesome/css/font-awesome.min.css'
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Switch>
            <Route path="/login" component={Login}/>
            <Route path="/not-found" component={NotFound}/>
+           <Route path="/admin" component={Dashbord}/>
            <Route path="/" component={App}/>
            <Redirect to="/not-found"/>
         </Switch>  

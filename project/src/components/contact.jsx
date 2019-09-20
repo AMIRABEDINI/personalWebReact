@@ -1,14 +1,20 @@
 import React from 'react'
 const Contact = () => {
+    const mapObj = {
+        key: 'service.GfLl3SMetBgj8XcF3qTlS6Zi4fzaXg6EvRZyKLNd',
+        type: 'neshan',
+        zoom: '14',
+        lat: '35.254981',
+        long: '58.285818',
+        width: '500',
+        height: '400',
+        marker: 'blue'
+    }
+    const mapUrl = `https://api.neshan.org/v2/static?key=${mapObj.key}&type=${mapObj.type}&zoom=${mapObj.zoom}&center=${mapObj.lat},${mapObj.long}&width=${mapObj.width}&height=${mapObj.height}&marker=${mapObj.marker}`
     return (
         <div className="container-fluid">
             <div className="row bg-light border rounded m-2">
-                <div className="col">
-                    <p className="lead m-2">
-                        <span className="fa fa-envelope m-1" />
-                        اطلاعات تماس
-                    </p>
-                </div>
+
                 <div className="col-6">
                     <form>
                         <div className="card border-primary rounded m-2">
@@ -84,9 +90,28 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
+                <div className="col">
+                    <p className="lead m-2">
+                        <span className="fa fa-envelope m-1" />
+                        اطلاعات تماس
+                    </p>
+                    <p className="m-2">
+                        <span className=" fa fa-envelope-open">
+                            آدرس ایمیل
+                        </span>
+                        <span style={{ fontFamily: 'monospace' }} className="m-2 font-weight-bold">
+                            amircjh2@gamil.com
+                        </span>
+                    </p>
+                    <p className="m-2">
+                        <span className="fa fa-address-card">آدرس :</span>
+                        <span className="m-2">استان خراسان رضوی شهرستان خلیل آباد</span>
+                    </p>
+                    <img src={mapUrl} alt="نقشه مکان" className="img-fluid img-thumnail m-2" />
+                </div>
             </div>
         </div>
     );
 }
- 
+
 export default Contact;
